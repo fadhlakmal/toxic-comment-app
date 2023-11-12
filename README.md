@@ -1,38 +1,38 @@
-# create-svelte
+# Toxic Comment Detection Web App
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This web app uses TensorFlow.js to integrate the toxicity detection model for identifying toxic comments. It is built with SvelteKit and provides a simple user interface for predicting whether a given text contains toxic elements.
 
-## Creating a project
+## Demo
+![image](https://github.com/fadhlakmal/toxicity-detection-app/assets/120249194/271a6c5b-b5c7-4e06-a27c-76a24d067301)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- **Toxicity Detection:** Utilizes the TensorFlow.js toxicity detection model to analyze text input and classify it into various toxicity categories.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Tools Used
 
-## Developing
+- **SvelteKit**
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **TensorFlow.js**
 
-```bash
-npm run dev
+## Getting Started
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. **Clone the repository**:
 
-## Building
+   ```bash
+   git clone https://github.com/your-username/toxic-comment-detection-app.git
+   cd toxic-comment-detection-app
+   npm install
+   ```
+2. **Start and run the development server**
+   ```
+   npm run dev -- --open
+   ```
+## Usage
+Feel free to modify and expand upon this project to suit your specific needs. Customize the machine learning models, enhance the user interface, or add new features to create a unique web application that leverages the power of TensorFlow.js and SvelteKit.
 
-To create a production version of your app:
+## Contributing
+Contributions to this project are welcome! If you have ideas for improvements or new features, feel free to reach out through GitHub issues or by [email](mailto:akmal.madany1@gmail.com).
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+This project is licensed under the MIT License.
